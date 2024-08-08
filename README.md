@@ -13,7 +13,7 @@ The **Boilerplate** is a simple, clean, and efficient starting point for quickly
 3. Type the following command to clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/BlindByte98/Web-Boilerplate-and-Companion)
    ```
 
 ### Companion
