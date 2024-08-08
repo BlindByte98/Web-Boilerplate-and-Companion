@@ -6,6 +6,8 @@
 
 The **Boilerplate** is a simple, clean, and efficient starting point for quickly launching a web project. It includes a basic `index.html`, `scripts.js`, and `styles.css` file, without unnecessary bloat, allowing you to focus on your project from the get-go.
 
+### Visit The Hosted Web Version [Here](https://blindbyte98.github.io/Web-Boilerplate-and-Companion/) :point_left:
+
 ### How to Use the Boilerplate
 
 1. Install Git if you haven't already.
