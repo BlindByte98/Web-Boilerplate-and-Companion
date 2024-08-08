@@ -1,0 +1,65 @@
+/* CSS BOILErPLATE */
+
+
+body {
+    flex-direction: column;
+    background-color: #0e0e0e;
+    font-family: 'Arial', sans-serif; /* Fallback to Arial if Google Font is not available */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    display: block;
+    color: rgb(236, 236, 236); /* Light grey color */
+    font-family: 'Roboto', sans-serif; /* Example clean font */
+    font-size: 3rem; /* Adjust size as needed */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+p {
+    display: block;
+    color: rgb(236, 236, 236); /* Light grey color */
+    font-family: 'Roboto', sans-serif; /* Example clean font */
+    font-size: 3rem; /* Adjust size as needed */
+    margin: 0; /* Remove default margin */
+    text-align: center;
+}
+
+button {
+    display: inline-block; /* Makes the button size fit its content */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Vibrant blue color */
+    font-family: 'Roboto', sans-serif; /* Same clean font */
+    font-size: 0.75rem; /* Slightly smaller font size */
+    padding: 15px 30px; /* Adds padding inside the button */
+    border: none; /* Removes default border */
+    border-radius: 36px; /* Rounds the edges */
+    margin: 10px 0; /* Adds vertical margin */
+    text-align: center;
+    cursor: pointer; /* Shows pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+@keyframes colorTransition {
+    0% { color: #ff3838; }    /* Radiant Red */
+    10% { color: #ff6b6b; }   /* Light Coral */
+    20% { color: #ff9f43; }   /* Bright Orange */
+    30% { color: #ffcd56; }   /* Vivid Yellow */
+    40% { color: #4cd137; }   /* Bright Green */
+    50% { color: #7efff5; }   /* Bright Turquoise */
+    60% { color: #4834d4; }   /* Electric Blue */
+    70% { color: #a55eea; }   /* Vivid Purple */
+    80% { color: #f78fb3; }   /* Soft Pink */
+    90% { color: #f8c291; }   /* Peach */
+    100% { color: #ff3838; }  /* Radiant Red */
+}
+
+#colorful-heading {
+    animation: colorTransition 24s ease-in-out infinite;
+}
